@@ -1,5 +1,8 @@
 # CouchDB-Bash-Script-To-Verify-And-Add-Replication
-CouchDB Bash Script To Verify And Add Replication
+
+This script does one thing only: takes a local couchdb instance and one/many remove couch db instances and insures the replication is set up corectly, if not it adds it if the remote ip can be reached by ping.
+
+Use as you wish, on your own risk.
 
 
 # Installation
@@ -26,7 +29,7 @@ DB="[database name to be replicated]"
 
 REMOTE=("[ip1]" "[ip2]")
 
-add as many ip's as you want, in quotes
+add as remote many ip's as you want, in quotes
 
 THEN
 
