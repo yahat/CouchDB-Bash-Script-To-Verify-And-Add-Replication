@@ -18,10 +18,10 @@ THEN
 
 edit with your favourite editor, change the first 4 lines
 
-LOCAL="<ip of current server">
-PORT="<couch db port of all servers"
-DB="<database name to be replicated"
-REMOTE=("<ip1>" "<ip2>")
+LOCAL="[ip of current server]"
+PORT="[couch db port of all servers]"
+DB="[database name to be replicated]"
+REMOTE=("[ip1]" "[ip2]")
 
 add as many ip's as you want, in quotes
 
